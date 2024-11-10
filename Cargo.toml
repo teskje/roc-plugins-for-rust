@@ -1,0 +1,11 @@
+[package]
+name = "roc-plugin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2"
+libloading = "0.8"
+regex = "1"
+roc_std = { git = "https://github.com/roc-lang/roc.git" }
+tempfile = "3"
